@@ -21,6 +21,8 @@ const router = (
     </Router>
 );
 
+//RENDER THIS WHEN DOMLOADED
+
 window.onload = function() {
     ReactDOM.render(router, document.getElementById("app_container"));
 }
